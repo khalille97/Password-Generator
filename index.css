@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+   
+}
+.container{
+    width: 550px;
+    height:550px ;
+    background-color: #1F2937;
+    position: relative;
+    color: white;
+}
+
+.container span{
+    color: #4ADF86;
+}
+.container h1{
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    font-family: 'karla';
+    top: 115px;
+    left: 52px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+}
+.container h3{
+position: absolute;
+width: 372px;
+height: 28px;
+left: 52px;
+top: 205px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #D5D4D8;
+}
+#genBtn{
+position: absolute;
+height: 42px;
+width: 191px;
+left: 52px;
+top: 284px;
+border-radius: 6px;
+border: none;
+padding: 9px 17px 9px 15px;
+background: #10B981;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color:white;
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+cursor: pointer;
+}
+#genBtn:hover{
+    background-color:  #10b981ec;
+}  
+#genBtn:active{
+    background-color: #10b981ec;
+    transform: translateY(2px) translateX(2px);
+}   
+.container h5{
+    display: inline-block;
+    border: 1px solid #1f293769;
+    background-color:#516d94 ;
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 280px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+    
+}
+#pass1{
+    left: 52px;
+}
